@@ -9,7 +9,7 @@
 
 .app__home-navbar_content-items {
   display: flex;
-  width: 90%;
+  width: 80%;
   justify-content: center;
   align-items: center;
 }
@@ -19,13 +19,15 @@
   object-fit: cover;
   height: 4rem;
   width: auto;
-  margin: 0 8rem;
+  margin-top: 2rem;
+  margin-left: 6rem;
+  margin-right: 20rem;
 }
 
 .app__home-navbar_content-items_text {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  margin: 0 0;
+  margin-top: 1.3rem;
 }
 
 .app__home-navbar_btn {
@@ -33,14 +35,15 @@
   width: 7rem;
   height: 3rem;
   border-radius: 1rem;
-  margin: 3rem;
-
-  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-right: 4rem;
+  margin-left: 3rem;
+  /* justify-content: flex-end; */
 }
 
 .app__home-navbar_btn button {
   border-radius: 6px;
-  font-size: 18px;
+  font-size: 1.5rem;
   color: white;
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
