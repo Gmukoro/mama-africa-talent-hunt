@@ -2,6 +2,7 @@ import Navbar from "./Navbar/navbar";
 import Hero from "./Hero/hero";
 import "./home.css";
 import Aboutmama from "./Aboutmama/Aboutmama";
+import ComingSoonSec from "./comingSoonSec/comingSoonSec";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Navbar />
         <Hero />
         <Aboutmama />
+        <ComingSoonSec />
       </section>
     </div>
   );

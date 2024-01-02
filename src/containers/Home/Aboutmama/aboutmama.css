@@ -1,7 +1,7 @@
 .app__aboutmama {
   background-image: url("/src/assets/unsplash-01.png");
   background-repeat: no-repeat;
-  background-position: 170px 400px;
+  background-position: 180px 400px;
   background-size: 720px 720px;
   width: 80vw;
   /* border: 1px solid black; */
@@ -39,7 +39,7 @@ button {
 
 .app__aboutmama-desc p {
   margin-bottom: 35px;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 15px;
   text-align: justify;
 }
@@ -80,6 +80,7 @@ button {
   object-fit: cover;
   width: 995px;
   height: 1103px;
+  padding-left: 40px;
 }
 
 .app__aboutmama-img img {
