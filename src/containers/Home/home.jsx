@@ -3,6 +3,8 @@ import Hero from "./Hero/hero";
 import "./home.css";
 import Aboutmama from "./Aboutmama/Aboutmama";
 import ComingSoonSec from "./comingSoonSec/comingSoonSec";
+import Eventslist from "./events/Eventslist";
+import Catalogue from "./catalogue/Catalogue";
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
         <Hero />
         <Aboutmama />
         <ComingSoonSec />
+        <Eventslist />
+        <Catalogue />
       </section>
     </div>
   );
