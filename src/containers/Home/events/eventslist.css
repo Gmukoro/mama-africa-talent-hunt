@@ -45,6 +45,7 @@
   margin-top: 15px;
   width: 10rem;
   height: 3rem;
+  cursor: pointer;
 }
 
 .app__events-contents_desc-lists {
@@ -85,7 +86,7 @@
   width: 503.86px;
   height: 606.6px;
   margin-left: -15rem;
-
+  z-index: 1;
   position: relative;
 }
 
@@ -94,7 +95,7 @@
   top: 0;
   border-radius: 50%;
   box-shadow: 10px 0px 60px 20px rgba(218, 174, 141, 0.802); /* Adjust values as needed */
-  z-index: -1;
+  z-index: 8;
 }
 
 .img3 {
@@ -127,7 +128,7 @@
 }
 
 .img2 {
-  z-index: 99;
+  z-index: 2;
   width: 500.07px;
   height: 515.19px;
   margin-bottom: -30rem;
