@@ -5,6 +5,7 @@ import Aboutmama from "./Aboutmama/Aboutmama";
 import ComingSoonSec from "./comingSoonSec/comingSoonSec";
 import Eventslist from "./events/Eventslist";
 import Catalogue from "./catalogue/Catalogue";
+import Schedule from "./schedule/Schedule";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <ComingSoonSec />
         <Eventslist />
         <Catalogue />
+        <Schedule />
       </section>
     </div>
   );

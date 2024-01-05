@@ -1,0 +1,61 @@
+.app__schedule {
+  display: flex;
+  /*  */
+  flex-direction: column;
+  width: 70vw;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.app__schedule-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 25px;
+  padding-bottom: 1px;
+  /* border-bottom: 1px solid black; */
+}
+
+.app__schedule-head_heading {
+  justify-content: flex-start;
+  margin-bottom: 6px;
+  font-size: 35px;
+}
+
+.app__schedule-head_date {
+  margin-left: auto;
+  text-align: right;
+}
+
+.app__schedule-head_date-span {
+  color: rgb(183, 180, 180);
+}
+
+.app__schedule-span {
+  border: 1px solid rgb(183, 180, 180);
+  margin-top: 10px;
+}
+
+.app__schedule-time {
+  display: flex;
+
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.app__schedule-time_span {
+  border: 1px solid rgb(183, 180, 180);
+  max-width: 2px;
+  margin: 0 1rem;
+}
+
+.app__schedule-time_date-schedules {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__schedule-time_date-schedule {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
