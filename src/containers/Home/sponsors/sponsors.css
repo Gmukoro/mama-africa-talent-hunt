@@ -1,0 +1,48 @@
+.app__sponsors {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__sponsors-newsletter {
+  display: flex;
+  flex-direction: row;
+  margin: 15rem 0;
+  background-image: url(/src/assets/Rectangle-12.png);
+  background-size: 100vw 227px;
+  padding: 5rem 4rem;
+}
+
+.app__sponsors-newsletter_signup h4 {
+  font-size: 35px;
+  font-family: irish grover, sans-serif;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.app__sponsors-newsletter_signup p {
+  font-size: 18px;
+}
+
+.app__sponsors-newsletter_input {
+  text-align: center;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.app__sponsers-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8rem;
+}
+
+.app__sponsers-div p {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  padding-bottom: 2.5rem;
+}
+
+.app__sponsers-div img {
+  height: 320px;
+}

@@ -1,0 +1,75 @@
+.app__process {
+  display: flex;
+  margin-top: 10rem;
+  width: 100vw;
+  background-image: url(/src/assets/rectangle007.png);
+}
+
+.app__process-contain {
+  display: flex;
+  text-align: center;
+  width: 70vw;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.app__process-heading {
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.app__process-div {
+  border-bottom: 1px solid blue;
+  margin: 2rem 0;
+  width: 70vw;
+}
+
+.app__process-processes {
+  display: flex;
+  flex-direction: row;
+  height: 11rem;
+}
+
+.app__process-processes h1 {
+  max-width: 9vw;
+  font-size: 5rem;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: -5.2rem;
+  font-family: sans-serif;
+  justify-content: center;
+}
+.app__process-processes h4 {
+  max-width: 20vw;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 500;
+}
+.h4two {
+  align-items: center;
+  margin-top: 4rem;
+  /* margin-right: -20rem; */
+}
+
+.h4two__p {
+  margin-top: 3rem;
+}
+
+.app__process-processes p {
+  max-width: 40vw;
+  text-align: left;
+  font-size: 20px;
+}
+
+.para {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.para p {
+  padding: 1rem 0;
+}

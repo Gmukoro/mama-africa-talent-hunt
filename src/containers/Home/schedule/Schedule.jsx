@@ -22,41 +22,58 @@ const Schedule = () => {
         <span className="app__schedule-time_span"></span>
         <div className="app__schedule-time_date-schedules">
           <div className="app__schedule-time_date-schedule">
-            <p>8:00am Preparation</p>
-            <p>
-              Ready to show the world what you’ve got while having maximum fun?
+            <p className="app__schedule-time_date-schedule_time">
+              8:00am Preparation
             </p>
-          </div>
-          <div className="app__schedule-time_date-schedule">
-            <p>8:00am Preparation</p>
-            <p>
-              Ready to show the world what you’ve got while having maximum fun?
-            </p>
-          </div>
-          <div className="app__schedule-time_date-schedule">
-            <p>8:00am Preparation</p>
-            <p>
-              Ready to show the world what you’ve got while having maximum fun?
-            </p>
-          </div>
-        </div>
-        <span className="app__schedule-time_span"></span>
-        <div className="app__schedule-time_date-schedules">
-          <div className="app__schedule-time_date-schedule">
-            <p>8:00am Preparation</p>
             <p>
               Ready to show the world what you’ve got while having maximum fun?
             </p>
           </div>
           <span className="app__schedule-time_date-schedule_span"></span>
           <div className="app__schedule-time_date-schedule">
-            <p>8:00am Preparation</p>
+            <p className="app__schedule-time_date-schedule_time">
+              8:00am Preparation
+            </p>
             <p>
               Ready to show the world what you’ve got while having maximum fun?
             </p>
           </div>
+          <span className="app__schedule-time_date-schedule_span"></span>
+          <div className="app__schedule-time_date-schedule">
+            <p className="app__schedule-time_date-schedule_time">
+              8:00am Preparation
+            </p>
+            <p>
+              Ready to show the world what you’ve got while having maximum fun?
+            </p>
+          </div>
+          <span className="app__schedule-time_date-schedule_span"></span>
+        </div>
+        <span className="app__schedule-time_span"></span>
+        <div className="app__schedule-time_date-schedules">
+          <div className="app__schedule-time_date-schedule">
+            <p className="app__schedule-time_date-schedule_time">
+              8:00am Preparation
+            </p>
+            <p>
+              Ready to show the world what you’ve got while having maximum fun?
+            </p>
+          </div>
+          <span className="app__schedule-time_date-schedule_span"></span>
+          <div className="app__schedule-time_date-schedule">
+            <p className="app__schedule-time_date-schedule_time">
+              8:00am Preparation
+            </p>
+            <p>
+              Ready to show the world what you’ve got while having maximum fun?
+            </p>
+          </div>
+          <span className="app__schedule-time_date-schedule_span"></span>
         </div>
       </div>
+      <button type="button" className="btn">
+        Learn More
+      </button>
     </section>
   );
 };

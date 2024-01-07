@@ -1,0 +1,39 @@
+.app__ourfeatures {
+  background-image: url(/src/assets/Rectangle009.png);
+  background-size: 100vw 780px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rem;
+}
+
+.app__ourfeatures p {
+  font-size: 30px;
+  font-weight: 500;
+  margin: auto;
+  padding: 3.5rem 0;
+  /*  */
+}
+
+.app__ourfeatures-imgs {
+  display: flex;
+  width: 80vw;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 6rem;
+  /* padding: 0 1rem; */
+}
+
+.app__ourfeatures-img {
+  width: 421.16px;
+  height: 481.33px;
+}
+
+.app__ourfeatures-img3 {
+  width: 421.16px;
+  height: 481.33px;
+  /* margin-top: -100px; */
+  object-fit: contain;
+  display: flex;
+}

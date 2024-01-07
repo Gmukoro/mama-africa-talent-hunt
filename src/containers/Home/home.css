@@ -4,6 +4,7 @@
   min-height: 1000px;
   padding: 0;
   overflow-y: hidden;
+  overflow-x: hidden;
   font-family: DejaVu Sans Mono, monospace;
 
   scroll-behavior: smooth;
