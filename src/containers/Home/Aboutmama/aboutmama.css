@@ -51,25 +51,26 @@ button {
 }
 
 .app__aboutmama-desc_btn {
-  max-width: 80vw;
+  width: 530px;
+  height: 63px;
   display: flex;
 }
 
 .app__aboutmama-desc_btn input {
-  width: 15vw;
+  width: 20rem;
   padding: 1rem 1rem;
-  margin-right: 1rem;
-  border-radius: 4px;
+  border-radius: 6px;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   background-color: transparent;
   font-family: DejaVu Sans Mono, monospace;
 }
 
 .app__aboutmama-desc_btn button {
-  width: 10vw;
+  width: 12rem;
+  height: 63px;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 17px;
   font-family: DejaVu Sans Mono, monospace;
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
