@@ -5,21 +5,25 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <nav className="app__home-navbar">
-      <div className="app__home-navbar_content-items">
+      <nav className="app__home-navbar_content-items">
         <img
           src={logo}
           alt="Logo"
           className="app__home-navbar_content-items_logo"
         />
-        <Link to="../home">
-          <p className="app__home-navbar_content-items_text">HOME</p>
+        <Link to="../home" className="app__home-navbar_content-items_text">
+          HOME
         </Link>
-        <Link to="/about">
-          <p className="app__home-navbar_content-items_text">ABOUT US</p>
+        <Link to="/about" className="app__home-navbar_content-items_text">
+          ABOUT US
         </Link>
-        <p className="app__home-navbar_content-items_text">WHAT WE DO</p>
-        <p className="app__home-navbar_content-items_text">PRESS CENTRE</p>
-      </div>
+        <Link to="" className="app__home-navbar_content-items_text">
+          WHAT WE DO
+        </Link>
+        <Link to="" className="app__home-navbar_content-items_text">
+          PRESS CENTRE
+        </Link>
+      </nav>
       <div className="app__home-navbar_btn">
         <button type="button">Join us</button>
       </div>
