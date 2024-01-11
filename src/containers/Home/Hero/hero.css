@@ -4,12 +4,13 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-top: 5rem;
 }
 
 .app__hero img {
   display: flex;
   object-fit: cover;
-  z-index: 99;
+  z-index: 10;
 }
 
 .app__hero-cont {

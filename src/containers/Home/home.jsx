@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Navbar from "./Navbar/navbar";
 import Hero from "./Hero/hero";
 import "./home.css";
@@ -15,7 +17,7 @@ const Home = () => {
   return (
     <div className="app__home">
       <section>
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
         <Aboutmama />
         <ComingSoonSec />
@@ -25,7 +27,7 @@ const Home = () => {
         <Process />
         <Ourfeatures />
         <Sponsors />
-        <Footer />
+        {/* <Footer /> */}
       </section>
     </div>
   );
